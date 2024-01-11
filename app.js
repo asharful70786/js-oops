@@ -1,4 +1,4 @@
-//here we apply --inhertance(father),extends,super,extends,new keyword class and object//
+//here we apply --inhertance(father),extends,super,constructor,new keyword class and object//
 //...........................................................................................................................
 
 class father {
