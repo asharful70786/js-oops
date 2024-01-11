@@ -117,6 +117,47 @@ class kckbazar extends LungiHouse {
 
 
 let item1 = new salimfk("podda lungi", "450/-", "2/10");
-let item2 = new kckbazar("chosa lungi" ,"480/-",  "3/09" , "lattu lungi/tawla" )
+let item2 = new kckbazar("chosa lungi" ,"480/-",  "3/09" , "lattu lungi/tawla" );
+
+//....................................................................................................................................
+//one more exmple
+//...............................................................................................................................
+
+class vikash{
+    constructor(name,section,sex,total){
+       this.name=name;
+       this.section=section;
+       this.sex=sex;
+       this.total=total;
+       
+    }
+    talk() {
+        console.log(`Hey, I'm ${this.name}, I read in class ${this.constructor.name}, my section is ${this.section}, and my sex is ${this.sex}`);
+    }
+
+}
+class cls5 extends vikash{
+    constructor (name,section,sex,total){
+        super(name,section,total);
+       
+    }
+   
+        
+    }
+
+
+
+
+class cls6 extends vikash{
+    constructor(name,section,total,sex){
+        super(name,section,total,sex)
+    }
+};
+
+
+let p1 = new cls5("ashraful momin" ,"A" , "MALE" , "385/500" );
+let p2 = new cls5("najam alam" ,"A" , "MALE" , "415/500" );
+let p3 = new cls6("rishan sk" ,"b" , "MALE" , "368/500" );
+let p4 = new cls6("apurna" ,"b" , "feMALE" , "350/500" );
 
 
